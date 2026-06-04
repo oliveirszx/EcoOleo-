@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoÓleo Pará</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🌱</div>
+        <h1>EcoÓleo Pará</h1>
+        <p>Descarte correto de óleo de cozinha</p>
+    </header>
+
+    <button onclick="mostrarMapa()">
+        📍 Ver mapa dos pontos de coleta
+    </button>
+
+    <button onclick="minhaLocalizacao()">
+        📱 Ver minha localização
+    </button>
+
+    <div id="map"></div>
+
+    <div class="caixa">
+        <h2>Importância do descarte adequado</h2>
+
+        <p>
+            O descarte incorreto do óleo de cozinha pode causar sérios danos ao meio ambiente.
+            Quando jogado na pia, no solo ou em rios, o óleo contamina a água e prejudica a vida aquática.
+        </p>
+
+        <p>
+            A reciclagem do óleo permite a produção de biodiesel, sabão e outros produtos sustentáveis,
+            reduzindo a poluição e contribuindo para a preservação ambiental.
+        </p>
+
+        <p>
+            Estima-se que apenas 1 litro de óleo pode contaminar milhares de litros de água.
+            Por isso, é fundamental armazená-lo em garrafas PET e levá-lo a pontos de coleta.
+        </p>
+    </div>
+
+    <div class="caixa">
+        <h2>Impacto Ambiental</h2>
+        <p>Óleo reciclado pela comunidade:</p>
+        <h1>250 Litros</h1>
+    </div>
+
+    <button onclick="quiz()">
+        🧠 Fazer Quiz
+    </button>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
